@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <AssemblyName>Darkages.Server</AssemblyName>
+    <RootNamespace>Darkages</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPublishable>False</IsPublishable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Compression\ZLib\**" />
+    <Compile Remove="GameScripts\Mundanes\Loures\**" />
+    <Compile Remove="GameScripts\Mundanes\Oren\**" />
+    <Compile Remove="GameScripts\Mundanes\Piet\**" />
+    <Compile Remove="GameScripts\Mundanes\Rionnag\**" />
+    <Compile Remove="GameScripts\Mundanes\Suomi\**" />
+    <Compile Remove="GameScripts\Mundanes\Tagor\**" />
+    <Compile Remove="GameScripts\Mundanes\World\**" />
+    <Compile Remove="Flags\**" />
+    <EmbeddedResource Remove="Compression\ZLib\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Loures\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Oren\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Piet\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Rionnag\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Suomi\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\Tagor\**" />
+    <EmbeddedResource Remove="GameScripts\Mundanes\World\**" />
+    <EmbeddedResource Remove="Flags\**" />
+    <None Remove="Compression\ZLib\**" />
+    <None Remove="GameScripts\Mundanes\Loures\**" />
+    <None Remove="GameScripts\Mundanes\Oren\**" />
+    <None Remove="GameScripts\Mundanes\Piet\**" />
+    <None Remove="GameScripts\Mundanes\Rionnag\**" />
+    <None Remove="GameScripts\Mundanes\Suomi\**" />
+    <None Remove="GameScripts\Mundanes\Tagor\**" />
+    <None Remove="GameScripts\Mundanes\World\**" />
+    <None Remove="Flags\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.StrongName" Version="2.0.123" />
+    <PackageReference Include="Microsoft.AppCenter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.5.0" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="107.2.1" />
+    <PackageReference Include="ServiceStack" Version="6.0.2" />
+    <PackageReference Include="ServiceStack.Text" Version="6.0.2" />
+    <PackageReference Include="zlib.managed" Version="1.1.5-preview-99682104" />
+  </ItemGroup>
+
+  <Import Project="..\Server.Configurations\Server.Configurations.projitems" Label="Shared" />
+
+</Project>
