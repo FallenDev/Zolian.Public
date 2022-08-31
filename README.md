@@ -8,7 +8,8 @@ The base logic was built by wren; located here: https://github.com/wren11/DarkAg
 
 # Zolian
 
-This repository is currently live and playable here: https://www.thebucknetwork.com/Zolian \n
+This repository is currently live and playable here: https://www.thebucknetwork.com/Zolian
+
 You may also join our community on Discord here: https://discord.gg/WbP2wU5CcB
 
 Zolian is a different approach to the darkages universe. 
