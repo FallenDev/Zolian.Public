@@ -1,4 +1,5 @@
-# Zolian; - Kingdom of Chaos
+### Archived Public version of Zolian 
+# Zolian - Kingdom of Chaos
 A Private Darkages Server
 
 # Hades
