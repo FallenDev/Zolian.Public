@@ -4,15 +4,6 @@
 Hades, Formally known as Lorule, is a Sandbox Server built upon the DarkAges 7.18 Client
 The base logic was built by wren; located here: https://github.com/wren11/DarkAges-Lorule-Server
 
-## License
-Hades - A Dark Ages Server & Client Project Copyright \(C\) 2020
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or \(at your option\) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
+## License   
+Please refer to the current project's licensing https://github.com/FallenDev/Zolian for more details.
 ---------------------------------------------------------------------
-
-Zolian - Customizations \(C\) 2022
-Please visit: https://www.thebucknetwork.com/Privacy
